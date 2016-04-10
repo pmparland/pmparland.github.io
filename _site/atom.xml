@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Programme Management, Project Management and Agile consultancy</title>
+ <link href="http://lockviewsoftware.com/atom.xml" rel="self"/>
+ <link href="http://lockviewsoftware.com/"/>
+ <updated>2016-04-10T15:04:51+01:00</updated>
+ <id>http://lockviewsoftware.com</id>
+ <author>
+   <name>Patrick McParland</name>
+   <email>p.mcparland@computer.org</email>
+ </author>
+
+ 
+ <entry>
+   <title>Coding Again!</title>
+   <link href="http://lockviewsoftware.com/2016/04/03/coding-again/"/>
+   <updated>2016-04-03T00:00:00+01:00</updated>
+   <id>http://lockviewsoftware.com/2016/04/03/coding-again</id>
+   <content type="html">&lt;p&gt;As a developer who drifted into tech lead and then management 20 or so years ago, I have always wanted to get back to doing some coding again. A few years back I noticed that I had become out of touch on how developers code today. In the good old days all you needed was an editor (cue emacs versus vi war), a compiler and an incomprehensible make file and you were all set! However, the world has moved on and for years I have gotten by nodding sagely as a developer discussed test driven development, continuous integration, IDEs (sure vi is more than enough), frameworks and many more.&lt;/p&gt;
+
+&lt;p&gt;The good news is that the basics of writing some code have not changed that much (well sort of). I could quickly write loops and if-statements and sites such as &lt;a href=&quot;http://codingbat.com/java&quot;&gt;CodingBat&lt;/a&gt; can reacquaint you with the basics. However, what has changed is that programming languages have evolved to make it easier to work with data structures and objects in particular. For example writing loops in Java has gone from basic while and for loops to enhanced for loops to iterators and now lambdas. If I had just stuck with Lisp think of all the ugly syntax I could have avoided; okay the brackets were a killer.&lt;/p&gt;
+
+&lt;p&gt;Another major improvement is the tooling around software development with IDEs in particular (cue IntelliJ versus Eclipse versus … wars). Yes these tools help with syntax but navigating a large software systems is infeasible without the support you get from IDEs to follow a chain of declarations and implementations. Combine that with plug-ins for code style, static analysis and most importantly test coverage and suddenly developers can have no excuse for creating poor quality code; alright they can moan to management if they are not given enough time.&lt;/p&gt;
+
+&lt;p&gt;Instead of a complex make file you now have tools like &lt;a href=&quot;https://maven.apache.org/&quot;&gt;Maven&lt;/a&gt; and &lt;a href=&quot;http://gradle.org/&quot;&gt;Gradle&lt;/a&gt; which can be integrated with tools such as &lt;a href=&quot;https://jenkins.io/&quot;&gt;Jenkins&lt;/a&gt; to support continuous integration from a &lt;a href=&quot;https://git-scm.com/&quot;&gt;Git&lt;/a&gt; repository.&lt;/p&gt;
+
+&lt;p&gt;(Aside: apologies that this is very Java centric but I know that the same development infrastructure exists for all modern programming languages from PHP to Ruby to .NET/C#.)&lt;/p&gt;
+
+&lt;p&gt;Once you understand the coding environment then you need to get familiar with a framework. I started with Spring but quickly discovered that Spring Boot encompassed most of what I needed to develop REST services. Frameworks seemed big and complex but after a few days I seen them as for helpers to provide the boring glue or pluming code and allow the developer to concentrate on the problem domain.&lt;/p&gt;
+
+&lt;p&gt;A long list of technologies but the key was to find a project and get started. With a few patient senior developers to help with the environment set up and a lot of online searching and tutorials I was able to make good progress and get back to being a developer.&lt;/p&gt;
+
+&lt;p&gt;It has been fun and definitely made me a better manager. I just need to keep up the coding!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>I am using Lanyon</title>
+   <link href="http://lockviewsoftware.com/2014/01/02/introducing-lanyon/"/>
+   <updated>2014-01-02T00:00:00+00:00</updated>
+   <id>http://lockviewsoftware.com/2014/01/02/introducing-lanyon</id>
+   <content type="html">&lt;p&gt;Lanyon is an unassuming &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; theme that places content first by tucking away navigation in a hidden drawer. It’s based on &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
+
+&lt;h3 id=&quot;built-on-poole&quot;&gt;Built on Poole&lt;/h3&gt;
+
+&lt;p&gt;Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by &lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt;. Poole, and every theme built on it (like Lanyon here) includes the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Complete Jekyll setup included (layouts, config, &lt;a href=&quot;/404&quot;&gt;404&lt;/a&gt;, &lt;a href=&quot;/atom.xml&quot;&gt;RSS feed&lt;/a&gt;, posts, and &lt;a href=&quot;/about&quot;&gt;example page&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Mobile friendly design and development&lt;/li&gt;
+  &lt;li&gt;Easily scalable text and component sizing with &lt;code class=&quot;highlighter-rouge&quot;&gt;rem&lt;/code&gt; units in the CSS&lt;/li&gt;
+  &lt;li&gt;Support for a wide gamut of HTML elements&lt;/li&gt;
+  &lt;li&gt;Related posts (time-based, because Jekyll) below each post&lt;/li&gt;
+  &lt;li&gt;Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lanyon-features&quot;&gt;Lanyon features&lt;/h3&gt;
+
+&lt;p&gt;In addition to the features of Poole, Lanyon adds the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Toggleable sliding sidebar (built with only CSS) via &lt;strong&gt;☰&lt;/strong&gt; link in top corner&lt;/li&gt;
+  &lt;li&gt;Sidebar includes support for textual modules and a dynamically generated navigation with active link support&lt;/li&gt;
+  &lt;li&gt;Two orientations for content and sidebar, default (left sidebar) and &lt;a href=&quot;https://github.com/poole/lanyon#reverse-layout&quot;&gt;reverse&lt;/a&gt; (right sidebar), available via &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; classes&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/poole/lanyon#themes&quot;&gt;Eight optional color schemes&lt;/a&gt;, available via &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; classes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/poole/lanyon#readme&quot;&gt;Head to the readme&lt;/a&gt; to learn more.&lt;/p&gt;
+
+&lt;h3 id=&quot;browser-support&quot;&gt;Browser support&lt;/h3&gt;
+
+&lt;p&gt;Lanyon is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.&lt;/p&gt;
+
+&lt;h3 id=&quot;download&quot;&gt;Download&lt;/h3&gt;
+
+&lt;p&gt;Lanyon is developed on and hosted with GitHub. Head to the &lt;a href=&quot;https://github.com/poole/lanyon&quot;&gt;GitHub repository&lt;/a&gt; for downloads, bug reports, and features requests.&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

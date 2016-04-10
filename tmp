@@ -1,0 +1,79 @@
+    1  brew install
+    2  brew install caskroom/cask/brew-cask
+    3  brew
+    4  sudo 
+    5  su
+    6  brew
+    7  su
+    8  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+    9  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   10  brew install caskroom/cask/brew-cask`
+   11  brew install caskroom/cask/brew-cask
+   12  brew install vim
+   13  brew install maven
+   14  brew install mvn
+   15  brew install mvn 
+   16  brew cask maven
+   17  brew cask
+   18  brew cask install maven 
+   19  brew cask install mvn
+   20  brew install maven
+   21  brew install maven
+   22  bew install java
+   23  brew install java
+   24  brew cask install java
+   25  brew cask install maven
+   26  brew install maven
+   27  mvn -l
+   28  mvn
+   29  mvn -v
+   30  xcode-select --install
+   31  echo $PATH
+   32  launchctl setenv PATH “/usr/local/bin:$PATH”
+   33  brew install ruby
+   34  gem install jekyll
+   35  cd $HOME 
+   36  ls
+   37  cd Projects/jekyll/
+   38  pwd
+   39  cd hyde-master/
+   40  ls
+   41  jekyll serve
+   42  jekyll serve
+   43  ls
+   44  vi _config.yml 
+   45  jekyll serve
+   46  gem update jekyll
+   47  gem install redcarpet
+   48  jekyll serve
+   49  gem install liquid
+   50  jekyll serve
+   51  gem install jekyll-gist
+   52  jekyll serve
+   53  Liquid syntax error (line 49): Unknown tag 'gist' inc
+   54  gem list
+   55  vi _config.yml 
+   56  vi _config.yml 
+   57  ls
+   58  in _config.yml 
+   59  vi _config.yml 
+   60  jekyll serve
+   61  gem install jekyll-pygments
+   62  gem install pygments
+   63  gem install pygments.rb
+   64  jekyll serve
+   65  vi _config.yml 
+   66  jekyll serve
+   67  vim _config.yml 
+   68  ls
+   69  ls
+   70  pwd
+   71  cd ..
+   72  pwd
+   73  mkdir lanyon-master
+   74  cd ..
+   75  cd jekyll/
+   76  rmdir lanyon-master/
+   77  cd lanyon-master/
+   78  jekyll serve
+   79  history > tmp

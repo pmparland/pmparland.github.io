@@ -1,0 +1,26 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+# relative_permalinks: true
+
+# Setup
+title:               Programme Management, Project Management and Agile consultancy
+tagline:             ''
+description:         'Patrick McParland Lockview Software'
+url:                 http://lockviewsoftware.com
+baseurl:             ''
+
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "page:num"
+
+
+# About/contact
+author:
+  name:              Patrick McParland
+  url:               http://lockviewsoftware.com
+  email:             p.mcparland@computer.org
+
+# Custom vars
+version:             1.0.0

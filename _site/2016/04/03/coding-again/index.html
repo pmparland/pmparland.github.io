@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Coding Again! &middot; Programme Management, Project Management and Agile consultancy
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>Patrick McParland Lockview Software</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about/">About</a>
+        
+      
+    
+      
+    
+
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2016. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">Programme Management, Project Management and Agile consultancy</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h1 class="post-title">Coding Again!</h1>
+  <span class="post-date">03 Apr 2016</span>
+  <p>As a developer who drifted into tech lead and then management 20 or so years ago, I have always wanted to get back to doing some coding again. A few years back I noticed that I had become out of touch on how developers code today. In the good old days all you needed was an editor (cue emacs versus vi war), a compiler and an incomprehensible make file and you were all set! However, the world has moved on and for years I have gotten by nodding sagely as a developer discussed test driven development, continuous integration, IDEs (sure vi is more than enough), frameworks and many more.</p>
+
+<p>The good news is that the basics of writing some code have not changed that much (well sort of). I could quickly write loops and if-statements and sites such as <a href="http://codingbat.com/java">CodingBat</a> can reacquaint you with the basics. However, what has changed is that programming languages have evolved to make it easier to work with data structures and objects in particular. For example writing loops in Java has gone from basic while and for loops to enhanced for loops to iterators and now lambdas. If I had just stuck with Lisp think of all the ugly syntax I could have avoided; okay the brackets were a killer.</p>
+
+<p>Another major improvement is the tooling around software development with IDEs in particular (cue IntelliJ versus Eclipse versus … wars). Yes these tools help with syntax but navigating a large software systems is infeasible without the support you get from IDEs to follow a chain of declarations and implementations. Combine that with plug-ins for code style, static analysis and most importantly test coverage and suddenly developers can have no excuse for creating poor quality code; alright they can moan to management if they are not given enough time.</p>
+
+<p>Instead of a complex make file you now have tools like <a href="https://maven.apache.org/">Maven</a> and <a href="http://gradle.org/">Gradle</a> which can be integrated with tools such as <a href="https://jenkins.io/">Jenkins</a> to support continuous integration from a <a href="https://git-scm.com/">Git</a> repository.</p>
+
+<p>(Aside: apologies that this is very Java centric but I know that the same development infrastructure exists for all modern programming languages from PHP to Ruby to .NET/C#.)</p>
+
+<p>Once you understand the coding environment then you need to get familiar with a framework. I started with Spring but quickly discovered that Spring Boot encompassed most of what I needed to develop REST services. Frameworks seemed big and complex but after a few days I seen them as for helpers to provide the boring glue or pluming code and allow the developer to concentrate on the problem domain.</p>
+
+<p>A long list of technologies but the key was to find a project and get started. With a few patient senior developers to help with the environment set up and a lot of online searching and tutorials I was able to make good progress and get back to being a developer.</p>
+
+<p>It has been fun and definitely made me a better manager. I just need to keep up the coding!</p>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2014/01/02/introducing-lanyon/">
+            I am using Lanyon
+            <small>02 Jan 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>
