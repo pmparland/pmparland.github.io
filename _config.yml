@@ -11,7 +11,7 @@ description:         'Patrick McParland Lockview Software'
 url:                 http://lockviewsoftware.com
 baseurl:             ''
 
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-sitemap]
 paginate: 5
 paginate_path: "page:num"
 
